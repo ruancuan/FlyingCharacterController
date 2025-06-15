@@ -917,7 +917,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -2698,6 +2698,7 @@ GameObject:
   - component: {fileID: 5507749732791789375}
   - component: {fileID: 5507749732791789374}
   - component: {fileID: 5507749732791789376}
+  - component: {fileID: 5507749732791789377}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2852,6 +2853,24 @@ MonoBehaviour:
   maxFloatHeight: 100
   minFloatHeight: 1.5
   freeLookCamera: {fileID: 330585545}
+--- !u!114 &5507749732791789377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126404381469506951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb70f1489c70442cf871be7976337b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomSpeed: 10
+  startFOV: 4
+  offsetStart: 0.45
+  offsetEnd: 0
+  zoomedOutFOV: 6
+  freeLookCamera: {fileID: 1101499172}
 --- !u!4 &5552211228164659868
 Transform:
   m_ObjectHideFlags: 0
